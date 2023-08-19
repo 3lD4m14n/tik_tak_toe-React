@@ -45,7 +45,7 @@ export default function App() {
         description = 'GAME START'
       }
 
-      return (<li key={move} className=' text-base mb-1 mb:p-1 md:my-1 bg-black rounded-xl w-4/5 text-center transition-colors text-white hover:bg-white hover:text-black md:text-2xl xl:p-2' onClick={ () => jumpTo(move) }>{description}</li>)
+      return (<li key={move} className=' text-base mb-1 mb:p-1 md:my-1 bg-black rounded-xl w-4/5 text-center transition-colors text-white hover:bg-white hover:text-black md:text-2xl' onClick={ () => jumpTo(move) }>{description}</li>)
     })
 
   return (
